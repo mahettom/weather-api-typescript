@@ -28,8 +28,8 @@
 ---
 
 ## Description
-
-<p>The <b>Weather API Challenge</b> in TypeScript. We will learn how to fetch data from an api in the context of react typescript.</p>
+"
+<p>The <b>Weather API Challenge</b> in TypeScript. Training on fetching data from an api in the context of react typescript.</p>
 
 <p>In this project there is a search field that listens to the user's input and makes an API call to get a suggestion of top 5 locations the user might be looking for. Once the user submits the search we will make another api call and get the user the weather data ✨</p>
 
