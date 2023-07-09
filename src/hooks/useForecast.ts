@@ -40,6 +40,7 @@ const useForecast = () => {
       )
         .then(res => res.json())
         .then(data => console.log({ data }))
+        .catch((e) => console.log(e))
     }
   
 
@@ -67,7 +68,7 @@ const useForecast = () => {
             }
 // —————————————————————————————————————————————————————————————— THEN SET IT TO forecast 
             setForecast(forecastData)
-        })
+        }).catch((e) => console.log(e))
     }
   
     useEffect(() => {
